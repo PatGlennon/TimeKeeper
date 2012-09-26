@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal" >
+    
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:layout_height="50dp"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/timerText"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textSize="20dp"/>
+
+    <Chronometer
+        android:id="@+id/chron"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:gravity="center" />
+    </LinearLayout>
+    <ToggleButton
+        android:id="@+id/toggle"
+        android:layout_width="50dp"
+        android:layout_height="match_parent" />
+    
+    
+    	<LinearLayout
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="wrap_content"
+	    android:layout_height="50dp"
+	    android:orientation="vertical" >
+
+		<Button
+		    android:id="@+id/reset"
+		    android:layout_width="wrap_content"
+		    android:layout_height="25dp"
+		    android:layout_marginLeft="8dp"
+		    android:layout_marginRight="8dp"
+		    android:background="@android:color/transparent"
+		    android:text="Reset"
+		    android:textColor="@android:color/white" />
+
+		<Button
+		    android:id="@+id/del"
+		    android:layout_width="match_parent"
+		    android:layout_height="25dp"
+		    android:background="@android:color/transparent"
+		    android:text="Delete"
+		    android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+	
+
+</LinearLayout>
